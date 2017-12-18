@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
+using Catlike.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Catlike.Controllers
@@ -9,6 +11,13 @@ namespace Catlike.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        readonly private IFooService _fooService;
+        
+        public ValuesController(IFooService fooService)
+        {
+            _fooService = fooService;
+        }
+        
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()

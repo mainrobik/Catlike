@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{4DCB4F2C-7375-44D2-86E3-A1BD93AAB2BD}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Catlike/Program.cs">
+    <Files>
+      <File FileName="Catlike/Program.cs" Line="22" Column="64" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
